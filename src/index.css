@@ -1,0 +1,47 @@
+.topHeader{
+    height: 10vh;
+}
+
+.landing-page{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+._Link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.myBtn{
+    background-color: black !important;
+    color: white;
+    border: none !important;
+    outline: none !important;
+
+}
+.footer{
+    height: 10vh;
+}
+
+.mainLayout {
+    min-height: 100vh !important;
+}
+.mainLayout .sidebar{
+    position: fixed;
+    width: 250px !important;
+    height: 100%;
+    
+}
+.mainLayout .content{
+    margin-left: 250px !important;
+}
+@media only screen and (max-width: 768px) {
+    .mainLayout .content{
+        margin-left: 0px !important;
+  }
+}
